@@ -8,7 +8,7 @@ import request from "@/api/request";
 export const reqCategoryList = () => {
     return request({url: "/product/getBaseCategoryList", method: "get"})
 }
-//发送请求:search中的数据  地址:/api/list 请求方式:post 参数:需要带参数
+//发送请求:search中的数据  地址:/api/list 请求方式:post 参数:需要带参
 //当前这个接口，给服务器传递参数params，至少是一个空对象
 export const reqGetSearchInfo = (params) => {
     return request({
